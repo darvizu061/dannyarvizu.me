@@ -3,5 +3,20 @@ NAV BAR
 *******************/
 nav {
   height: 80px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #cccccc;
   padding: 0 100px; }
+  nav img {
+    padding-top: 5px;
+    display: inline-block;
+    float: left;
+    margin-right: 700px;
+    cursor: pointer; }
+  nav a {
+    color: white; }
+    nav a h3 {
+      line-height: 80px;
+      margin: 0 30px 0 0;
+      display: inline-block; }
+    nav a:hover {
+      text-decoration: none;
+      color: #00b486; }
