@@ -4,8 +4,8 @@ NAV BAR
 nav {
   height: 80px;
   background: #cccccc;
-  padding: 0 100px; }
-  nav img {
+  padding: 0 0 0 100px; }
+  nav .logo {
     padding-top: 5px;
     display: inline-block;
     float: left;
@@ -20,3 +20,9 @@ nav {
     nav a:hover {
       text-decoration: none;
       color: #00b486; }
+    nav a .third-party-logo {
+      height: 25px;
+      display: inline-block;
+      margin-left: 25px;
+      position: relative;
+      top: -5px; }

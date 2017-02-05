@@ -7,8 +7,8 @@ NAV BAR
 nav{
   height: 80px;
   background: #cccccc;
-  padding: 0 100px;
-  img{
+  padding: 0 0 0 100px;
+  .logo{
     padding-top: 5px;
     display: inline-block;
     float: left;
@@ -25,6 +25,14 @@ nav{
     &:hover{
       text-decoration: none;
       color: #00b486;
+    }
+    //logos
+    .third-party-logo{
+      height: 25px;
+      display: inline-block;
+      margin-left: 25px;
+      position: relative;
+      top: -5px;
     }
   }
 }
