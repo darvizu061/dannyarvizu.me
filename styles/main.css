@@ -17,7 +17,8 @@ nav {
       font-family: 'Nunito', sans-serif;
       line-height: 80px;
       margin: 0 30px 0 0;
-      display: inline-block; }
+      display: inline-block;
+      cursor: pointer; }
     nav a:hover {
       text-decoration: none;
       color: #00b486; }
