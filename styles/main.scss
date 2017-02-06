@@ -1,6 +1,7 @@
 // color scheme
-$primary-green: #00b486;
-$primary-red: #b34145;
+$primary: #B7D5D4; //pale aqua
+$secondary: #0B2545; //oxford blue
+$third: #E4DFDA; //gainsboro
 body{
 
 }
@@ -9,7 +10,7 @@ NAV BAR
 *******************/
 nav{
   height: 80px;
-  background: #cccccc;
+  background: $third;
   padding: 0 0 0 100px;
   .logo{
     padding-top: 5px;
@@ -29,7 +30,7 @@ nav{
     }
     &:hover{
       text-decoration: none;
-      color: #00b486;
+      color: $primary;
     }
     //logos
     .third-party-logo{
@@ -46,13 +47,14 @@ HOMEPAGE
 *******************/
 #jumbotronSlide{
   height: 600px;
-  background: linear-gradient(to left, rgba(0,0,0,0.4) 100%,rgba(0,0,0,0.4) 100%), url("../images/jumbo.jpg");
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 100%,rgba(0,0,0,0.4) 100%), url("../images/jumbo.jpg") no-repeat;
+  background-size: cover;
   color: white;
   padding-top: 100px;
   #mainTitle{
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
-    color: $primary-green;
+    color: $primary;
   }
   p{
     font-family: 'Nunito', sans-serif;
@@ -63,9 +65,9 @@ HOMEPAGE
   }
   a{
     text-decoration: none;
-    color: $primary-green;
+    color: $primary;
     font-size: 25px;
-    border: 2px solid $primary-green;
+    border: 2px solid $primary;
     background-color: rgba(255,255,255,0.0);
     border-radius: 5px;
     padding: 5px 10px;
@@ -84,7 +86,7 @@ FOOTER
 *******************/
 footer{
   font-family: 'Nunito', sans-serif;
-  background-color: $primary-red;
+  background-color: $secondary;
   color: white;
   height: 100px;
   padding: 0 50px;

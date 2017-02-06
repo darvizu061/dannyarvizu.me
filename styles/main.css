@@ -3,7 +3,7 @@ NAV BAR
 *******************/
 nav {
   height: 80px;
-  background: #cccccc;
+  background: #e4dfda;
   padding: 0 0 0 100px; }
   nav .logo {
     padding-top: 5px;
@@ -21,7 +21,7 @@ nav {
       cursor: pointer; }
     nav a:hover {
       text-decoration: none;
-      color: #00b486; }
+      color: #b7d5d4; }
     nav a .third-party-logo {
       height: 25px;
       display: inline-block;
@@ -34,13 +34,14 @@ HOMEPAGE
 *******************/
 #jumbotronSlide {
   height: 600px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url("../images/jumbo.jpg");
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url("../images/jumbo.jpg") no-repeat;
+  background-size: cover;
   color: white;
   padding-top: 100px; }
   #jumbotronSlide #mainTitle {
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
-    color: #00b486; }
+    color: #b7d5d4; }
   #jumbotronSlide p {
     font-family: 'Nunito', sans-serif;
     margin-top: 30px;
@@ -49,9 +50,9 @@ HOMEPAGE
     text-align: justify; }
   #jumbotronSlide a {
     text-decoration: none;
-    color: #00b486;
+    color: #b7d5d4;
     font-size: 25px;
-    border: 2px solid #00b486;
+    border: 2px solid #b7d5d4;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
     padding: 5px 10px; }
@@ -61,7 +62,7 @@ FOOTER
 *******************/
 footer {
   font-family: 'Nunito', sans-serif;
-  background-color: #b34145;
+  background-color: #0b2545;
   color: white;
   height: 100px;
   padding: 0 50px; }
