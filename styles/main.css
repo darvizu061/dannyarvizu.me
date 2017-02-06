@@ -30,6 +30,33 @@ nav {
       top: -5px; }
 
 /*******************
+HOMEPAGE
+*******************/
+#jumbotronSlide {
+  height: 600px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/jumbo.jpg");
+  color: white;
+  padding-top: 100px; }
+  #jumbotronSlide #mainTitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color: #00b486; }
+  #jumbotronSlide p {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: justify; }
+  #jumbotronSlide a {
+    text-decoration: none;
+    color: #00b486;
+    font-size: 25px;
+    border: 2px solid #00b486;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding: 5px 10px; }
+
+/*******************
 FOOTER
 *******************/
 footer {
