@@ -1,3 +1,6 @@
+// color scheme
+$primary-green: #00b486;
+$primary-red: #b34145;
 body{
 
 }
@@ -43,13 +46,13 @@ HOMEPAGE
 *******************/
 #jumbotronSlide{
   height: 600px;
-  background: linear-gradient(to left, rgba(0,0,0,0.5) 100%,rgba(0,0,0,0.5) 100%), url("../images/jumbo.jpg");
+  background: linear-gradient(to left, rgba(0,0,0,0.4) 100%,rgba(0,0,0,0.4) 100%), url("../images/jumbo.jpg");
   color: white;
   padding-top: 100px;
   #mainTitle{
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
-    color: #00b486;
+    color: $primary-green;
   }
   p{
     font-family: 'Nunito', sans-serif;
@@ -60,9 +63,9 @@ HOMEPAGE
   }
   a{
     text-decoration: none;
-    color: #00b486;
+    color: $primary-green;
     font-size: 25px;
-    border: 2px solid #00b486;
+    border: 2px solid $primary-green;
     background-color: rgba(255,255,255,0.0);
     border-radius: 5px;
     padding: 5px 10px;
@@ -81,7 +84,7 @@ FOOTER
 *******************/
 footer{
   font-family: 'Nunito', sans-serif;
-  background-color: #b34145;
+  background-color: $primary-red;
   color: white;
   height: 100px;
   padding: 0 50px;

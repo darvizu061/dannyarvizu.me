@@ -34,7 +34,7 @@ HOMEPAGE
 *******************/
 #jumbotronSlide {
   height: 600px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/jumbo.jpg");
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url("../images/jumbo.jpg");
   color: white;
   padding-top: 100px; }
   #jumbotronSlide #mainTitle {
