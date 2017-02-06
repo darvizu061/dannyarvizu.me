@@ -33,11 +33,11 @@ nav {
 HOMEPAGE
 *******************/
 #jumbotronSlide {
-  height: 600px;
+  height: 60vh;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url("../images/jumbo.jpg") no-repeat;
   background-size: cover;
   color: white;
-  padding-top: 100px; }
+  padding-top: 55px; }
   #jumbotronSlide #mainTitle {
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
@@ -56,6 +56,26 @@ HOMEPAGE
     background-color: rgba(255, 255, 255, 0);
     border-radius: 5px;
     padding: 5px 10px; }
+
+#resumeSlide {
+  height: 80px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #3a6582;
+  padding-top: 25px;
+  -webkit-box-shadow: 0px 0px 36px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 36px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 36px 3px rgba(0, 0, 0, 0.75); }
+  #resumeSlide #phrase {
+    margin: 0;
+    color: white; }
+    #resumeSlide #phrase a {
+      color: #b7d5d4; }
+      #resumeSlide #phrase a:hover {
+        text-decoration: none;
+        color: #0b2545; }
+
+#recentWorkSlide {
+  height: 500px; }
 
 /*******************
 FOOTER
