@@ -54,7 +54,6 @@ HOMEPAGE
     font-size: 25px;
     border: 2px solid #b7d5d4;
     background-color: rgba(255, 255, 255, 0);
-    border-radius: 5px;
     padding: 5px 10px; }
 
 #resumeSlide {
@@ -75,7 +74,73 @@ HOMEPAGE
         color: #0b2545; }
 
 #recentWorkSlide {
-  height: 500px; }
+  min-height: 1000px;
+  height: 100vh;
+  position: relative; }
+  #recentWorkSlide #backgroundTitle {
+    color: #0b2545;
+    font-size: 80px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-family: 'Monoton', cursive;
+    text-shadow: 28px -11px 2px rgba(150, 150, 150, 0.24); }
+  #recentWorkSlide #cardContainer {
+    padding-top: 130px;
+    text-align: center; }
+    #recentWorkSlide #cardContainer .recentCard {
+      font-family: 'Nunito', sans-serif;
+      -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      vertical-align: top;
+      width: 380px;
+      margin: 0 10px; }
+      #recentWorkSlide #cardContainer .recentCard .imgHelper {
+        height: 216px; }
+      #recentWorkSlide #cardContainer .recentCard #optImg {
+        background-image: url("../images/placeholder.png");
+        background-size: cover;
+        background-position: center center; }
+      #recentWorkSlide #cardContainer .recentCard #mccImg {
+        background: url("../images/mcc.jpg");
+        background-size: cover;
+        background-position: center center; }
+      #recentWorkSlide #cardContainer .recentCard #cidImg {
+        background: url("../images/cid.jpg");
+        background-size: cover;
+        background-position: center center; }
+      #recentWorkSlide #cardContainer .recentCard .title {
+        margin: 0;
+        line-height: 56px;
+        border-bottom: 1px solid grey; }
+      #recentWorkSlide #cardContainer .recentCard .des-title, #recentWorkSlide #cardContainer .recentCard .det-title {
+        text-align: left;
+        padding: 0 15px;
+        margin: 10px 0 5px 0; }
+      #recentWorkSlide #cardContainer .recentCard p {
+        text-align: left;
+        padding: 0 15px;
+        font-size: 15px; }
+      #recentWorkSlide #cardContainer .recentCard ul {
+        text-align: left;
+        padding-bottom: 10px;
+        border-bottom: 1px solid grey;
+        margin-bottom: 0; }
+      #recentWorkSlide #cardContainer .recentCard a {
+        display: block;
+        color: #565757;
+        background-color: #e4dfda;
+        font-size: 20px;
+        padding: 10px 0;
+        border-bottom: 1px solid #3e3e3e; }
+        #recentWorkSlide #cardContainer .recentCard a:hover {
+          text-decoration: none;
+          color: white; }
+
+.hvr-sweep-to-right:before {
+  background: #3a6582; }
 
 /*******************
 FOOTER
