@@ -177,6 +177,12 @@ HOMEPAGE
       }
     }
   }
+  @media screen and (max-width: $small){
+    #phrase{
+      font-size: 15px;
+      margin-top: 5px;
+    }
+  }
 }
 #recentWorkSlide{
   min-height: 1000px;
