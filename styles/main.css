@@ -115,26 +115,26 @@ HOMEPAGE
         margin: 0;
         line-height: 56px;
         border-bottom: 1px solid grey; }
-      #recentWorkSlide #cardContainer .recentCard .des-title, #recentWorkSlide #cardContainer .recentCard .det-title {
-        text-align: left;
-        padding: 0 15px;
-        margin: 10px 0 5px 0; }
-      #recentWorkSlide #cardContainer .recentCard p {
-        text-align: left;
-        padding: 0 15px;
-        font-size: 15px; }
-      #recentWorkSlide #cardContainer .recentCard ul {
-        text-align: left;
-        padding-bottom: 10px;
-        border-bottom: 1px solid grey;
-        margin-bottom: 0; }
+      #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
+        height: 385px; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide .des-title, #recentWorkSlide #cardContainer .recentCard .info-sub-slide .det-title {
+          text-align: left;
+          padding: 0 15px;
+          margin: 10px 0 5px 0; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide p {
+          text-align: left;
+          padding: 0 15px;
+          font-size: 15px; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide ul {
+          text-align: left;
+          padding-bottom: 10px; }
       #recentWorkSlide #cardContainer .recentCard a {
         display: block;
         color: #565757;
         background-color: #e4dfda;
         font-size: 20px;
         padding: 10px 0;
-        border-bottom: 1px solid #3e3e3e; }
+        border-top: 1px solid #3e3e3e; }
         #recentWorkSlide #cardContainer .recentCard a:hover {
           text-decoration: none;
           color: white; }

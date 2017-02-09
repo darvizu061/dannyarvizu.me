@@ -141,29 +141,31 @@ HOMEPAGE
         line-height: 56px;
         border-bottom: 1px solid grey;
       }
-      .des-title, .det-title{
-        text-align: left;
-        padding: 0 15px;
-        margin: 10px 0 5px 0;
+      .info-sub-slide{
+        height: 385px;
+        .des-title, .det-title{
+          text-align: left;
+          padding: 0 15px;
+          margin: 10px 0 5px 0;
+        }
+        p{
+          text-align: left;
+          padding: 0 15px;
+          font-size: 15px;
+        }
+        ul{
+          text-align: left;
+          padding-bottom: 10px;
+        }
       }
-      p{
-        text-align: left;
-        padding: 0 15px;
-        font-size: 15px;
-      }
-      ul{
-        text-align: left;
-        padding-bottom: 10px;
-        border-bottom: 1px solid grey;
-        margin-bottom: 0;
-      }
+
       a{
         display: block;
         color: #565757;
         background-color: $third;
         font-size: 20px;
         padding: 10px 0;
-        border-bottom: 1px solid #3e3e3e;
+        border-top: 1px solid #3e3e3e;
         &:hover{
           text-decoration: none;
           color: white;
