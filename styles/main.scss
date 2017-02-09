@@ -3,47 +3,125 @@ $primary: #B7D5D4; //pale aqua
 $secondary: #0B2545; //oxford blue
 $third: #E4DFDA; //gainsboro
 $fourth: #3A6582; //ming
-body{
-
-}
+//MEDIA QUERIES
+$large: 1200px;
+$medium: 992px;
+$small: 768px;
+$xsmall: 470px;
+$xxsmall: 340px;
 /*******************
 NAV BAR
 *******************/
 nav{
   height: 80px;
   background: $third;
-  padding: 0 0 0 100px;
+  padding: 0 90px;
   .logo{
     padding-top: 5px;
     display: inline-block;
     float: left;
-    margin-right: 700px;
     cursor: pointer;
   }
-  a{
-    color: white;
-    h3{
-      font-family: 'Nunito', sans-serif;
-      line-height: 80px;
-      margin: 0 30px 0 0;
-      display: inline-block;
-      cursor: pointer;
-    }
-    &:hover{
-      text-decoration: none;
-      color: $primary;
-    }
-    //logos
-    .third-party-logo{
-      height: 25px;
-      display: inline-block;
-      margin-left: 25px;
-      position: relative;
-      top: -5px;
+  .menu{
+    float: right;
+    a{
+      color: white;
+      h3{
+        font-family: 'Nunito', sans-serif;
+        line-height: 80px;
+        margin: 0 30px 0 0;
+        display: inline-block;
+        cursor: pointer;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $primary;
+      }
+      //logos
+      .third-party-logo{
+        height: 25px;
+        display: inline-block;
+        margin-left: 25px;
+        position: relative;
+        top: -5px;
+      }
     }
   }
+
   .active{
     color: $primary;
+  }
+  // mobile menu
+  .menubtn{
+    display: none;
+    float: right;
+    padding-top: 13px;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $secondary;
+    overflow-x: hidden;
+    transition: 0.5s;
+    .closebtn{
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    & a {
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        h3{
+          font-size: 65px;
+        }
+        &:hover, &:focus{
+          color: #9a9b9b;
+        }
+    }
+  }
+  @media screen and (max-width: $large){
+    .menu{
+      a{
+        h3{
+          font-size: 20px;
+          margin: 0 17px 0 0;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $medium){
+    a{
+      .third-party-logo{
+        margin-left: 10px;
+      }
+    }
+  }
+  @media screen and (max-width: $small){
+    padding: 0 40px;
+    .menu{
+      display: none;
+    }
+    .menubtn{
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width: $xsmall){
+
   }
 }
 /*******************
@@ -178,11 +256,12 @@ HOMEPAGE
     }
   }
 }
-
+/*******************
+HOVER.SCSS UPDATES
+*******************/
 .hvr-sweep-to-right:before{
   background: $fourth;
 }
-
 /*******************
 FOOTER
 *******************/
