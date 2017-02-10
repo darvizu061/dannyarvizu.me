@@ -32,8 +32,8 @@ nav {
         margin-left: 25px;
         position: relative;
         top: -5px; }
-  nav .active {
-    color: #b7d5d4; }
+      nav .menu a.active {
+        color: #b7d5d4; }
   nav .menubtn {
     display: none;
     float: right;

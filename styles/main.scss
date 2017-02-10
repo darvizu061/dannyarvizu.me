@@ -49,12 +49,12 @@ nav{
         position: relative;
         top: -5px;
       }
+      &.active{
+        color: $primary;
+      }
     }
   }
-
-  .active{
-    color: $primary;
-  }
+  
   // mobile menu
   .menubtn{
     display: none;
