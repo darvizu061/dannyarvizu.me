@@ -223,7 +223,7 @@ HOMEPAGE
       box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
       display: inline-block;
       vertical-align: top;
-      width: 380px;
+      width: 370px;
       margin: 0 10px;
       .imgHelper{
         height: 216px;
@@ -265,7 +265,6 @@ HOMEPAGE
           padding-bottom: 10px;
         }
       }
-
       a{
         display: block;
         color: #565757;
@@ -281,6 +280,89 @@ HOMEPAGE
       }
     }
   }
+
+  @media screen and (max-width: $large){
+    #cardContainer{
+      .recentCard{
+        width: 300px;
+        .imgHelper{
+          height: 170px;
+        }
+        .info-sub-slide{
+          height: 350px;
+          overflow-y: scroll;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $medium){
+    min-height: 800px;
+    #backgroundTitle{
+      width: 520px;
+      font-size: 60px;
+      margin: auto;
+      right: 0;
+      left: 0;
+      top: 30px;
+    }
+    #cardContainer{
+      .recentCard{
+        width: 200px;
+        .imgHelper{
+          height: 130px;
+        }
+        .title{
+          font-size: 18px;
+        }
+        .info-sub-slide{
+          height: 250px;
+          .des-title{
+            font-size: 14px;
+          }
+          p, ul{
+            font-size: 12px;
+          }
+        }
+        a{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $small){
+    height: auto;
+    #backgroundTitle{
+      font-size: 40px;
+      width: 336px;
+    }
+    #cardContainer{
+      padding-top: 100px;
+      .recentCard{
+        max-width: 520px;
+        width: 100vw;
+        margin: 0 0 100px;
+        .imgHelper{
+          height: 300px;
+
+
+        }
+        .info-sub-slide{
+          height: auto;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $xsmall){
+    #cardContainer{
+      .recentCard{
+        .imgHelper{
+          height: 270px;
+
+        }
+      }
+    }
+  }
+
 }
 /*******************
 HOVER.SCSS UPDATES
