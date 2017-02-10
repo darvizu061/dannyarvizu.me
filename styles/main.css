@@ -1,3 +1,6 @@
+body, html {
+  overflow-x: hidden; }
+
 /*******************
 NAV BAR
 *******************/
@@ -85,6 +88,7 @@ HOMEPAGE
 *******************/
 #jumbotronSlide {
   min-height: 460px;
+  max-height: 500px;
   height: 60vh;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url("../images/jumbo.jpg") no-repeat;
   background-size: cover;
@@ -112,7 +116,7 @@ HOMEPAGE
       text-align: center; } }
   @media screen and (max-width: 470px) {
     #jumbotronSlide #mainTitle {
-      font-size: 40px; }
+      font-size: 35px; }
     #jumbotronSlide p {
       font-size: 18px; }
     #jumbotronSlide a {

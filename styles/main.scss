@@ -9,7 +9,10 @@ $medium: 992px;
 $small: 768px;
 $xsmall: 470px;
 $xxsmall: 370px;
-
+//General
+body, html{
+  overflow-x: hidden;
+}
 /*******************
 NAV BAR
 *******************/
@@ -130,6 +133,7 @@ HOMEPAGE
 *******************/
 #jumbotronSlide{
   min-height: 460px;
+  max-height: 500px;
   height: 60vh;
   background: linear-gradient(to left, rgba(0,0,0,0.4) 100%,rgba(0,0,0,0.4) 100%), url("../images/jumbo.jpg") no-repeat;
   background-size: cover;
@@ -160,7 +164,7 @@ HOMEPAGE
   }
   @media screen and (max-width: $xsmall){
     #mainTitle{
-      font-size: 40px;
+      font-size: 35px;
     }
     p{
       font-size: 18px;
