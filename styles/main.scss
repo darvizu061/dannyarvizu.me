@@ -8,7 +8,8 @@ $large: 1200px;
 $medium: 992px;
 $small: 768px;
 $xsmall: 470px;
-$xxsmall: 340px;
+$xxsmall: 370px;
+
 /*******************
 NAV BAR
 *******************/
@@ -156,6 +157,17 @@ HOMEPAGE
   }
   @media screen and (max-width: $medium){
     text-align: center;
+  }
+  @media screen and (max-width: $xsmall){
+    #mainTitle{
+      font-size: 40px;
+    }
+    p{
+      font-size: 18px;
+    }
+    a{
+      font-size: 20px;
+    }
   }
 }
 #resumeSlide{

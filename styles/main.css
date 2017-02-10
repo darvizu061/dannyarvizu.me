@@ -110,6 +110,13 @@ HOMEPAGE
   @media screen and (max-width: 992px) {
     #jumbotronSlide {
       text-align: center; } }
+  @media screen and (max-width: 470px) {
+    #jumbotronSlide #mainTitle {
+      font-size: 40px; }
+    #jumbotronSlide p {
+      font-size: 18px; }
+    #jumbotronSlide a {
+      font-size: 20px; } }
 
 #resumeSlide {
   height: 80px;
