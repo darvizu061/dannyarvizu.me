@@ -22,8 +22,6 @@ nav{
   padding: 0 90px;
   .logo{
     padding-top: 5px;
-    display: inline-block;
-    float: left;
     cursor: pointer;
   }
   .menu{
@@ -54,7 +52,7 @@ nav{
       }
     }
   }
-  
+
   // mobile menu
   .menubtn{
     display: none;

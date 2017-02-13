@@ -10,8 +10,6 @@ nav {
   padding: 0 90px; }
   nav .logo {
     padding-top: 5px;
-    display: inline-block;
-    float: left;
     cursor: pointer; }
   nav .menu {
     float: right; }
