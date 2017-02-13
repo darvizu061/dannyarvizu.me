@@ -7,7 +7,10 @@ NAV BAR
 nav {
   height: 80px;
   background: #e4dfda;
-  padding: 0 90px; }
+  padding: 0 90px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
   nav .logo {
     padding-top: 5px;
     cursor: pointer; }
@@ -257,6 +260,48 @@ HOMEPAGE
   @media screen and (max-width: 470px) {
     #recentWorkSlide #cardContainer .recentCard .imgHelper {
       height: 270px; } }
+
+/*******************
+PORTFOLIO PAGE
+*******************/
+#portfolioContainer {
+  padding: 40px 10% 60px;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around; }
+  #portfolioContainer .thumb {
+    height: 270px;
+    margin-top: 20px;
+    padding: 8px 8px 0;
+    width: 30%;
+    font-family: 'Nunito', sans-serif;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75); }
+    #portfolioContainer .thumb .image_helper {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 200px; }
+    #portfolioContainer .thumb #cid_image {
+      background-image: url("../images/cid_thumb.png"); }
+    #portfolioContainer .thumb #otm_image {
+      background-image: url("../images/placeholder.png"); }
+    #portfolioContainer .thumb #mcc_image {
+      background-image: url("../images/mcc_thumb.png"); }
+    #portfolioContainer .thumb #ecc_image {
+      background-image: url("../images/ecc_thumb.png"); }
+    #portfolioContainer .thumb #ahc_image {
+      background-image: url("../images/ahc_thumb.png"); }
+    #portfolioContainer .thumb #ntt_image {
+      background-image: url("../images/ntt_thumb.png"); }
+    #portfolioContainer .thumb #nta_image {
+      background-image: url("../images/nta_thumb.png"); }
 
 /*******************
 HOVER.SCSS UPDATES

@@ -20,6 +20,10 @@ nav{
   height: 80px;
   background: $third;
   padding: 0 90px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
   .logo{
     padding-top: 5px;
     cursor: pointer;
@@ -361,6 +365,46 @@ HOMEPAGE
     }
   }
 
+}
+/*******************
+PORTFOLIO PAGE
+*******************/
+#portfolioContainer{
+  padding: 40px 10% 60px;
+  margin: 0;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  .thumb{
+    height: 270px;
+    margin-top: 20px;
+    padding: 8px 8px 0;
+    width: 30%;
+    font-family: 'Nunito', sans-serif;
+
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    .image_helper{
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 200px;
+    }
+    #cid_image{ background-image: url("../images/cid_thumb.png"); }
+    #otm_image{ background-image: url("../images/placeholder.png"); }
+    #mcc_image{ background-image: url("../images/mcc_thumb.png"); }
+    #ecc_image{ background-image: url("../images/ecc_thumb.png"); }
+    #ahc_image{ background-image: url("../images/ahc_thumb.png"); }
+    #ntt_image{ background-image: url("../images/ntt_thumb.png"); }
+    #nta_image{ background-image: url("../images/nta_thumb.png"); }
+  }
 }
 /*******************
 HOVER.SCSS UPDATES
