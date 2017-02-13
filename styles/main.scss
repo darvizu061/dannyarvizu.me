@@ -370,8 +370,7 @@ HOMEPAGE
 PORTFOLIO PAGE
 *******************/
 #portfolioContainer{
-  padding: 40px 10% 60px;
-  margin: 0;
+  margin: 40px 10% 60px;
 
   display: -webkit-box;
   display: -moz-box;
@@ -387,6 +386,9 @@ PORTFOLIO PAGE
     padding: 8px 8px 0;
     width: 310px;
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+    transition: .5s;
 
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
@@ -406,7 +408,7 @@ PORTFOLIO PAGE
     #nta_image{ background-image: url("../images/nta_thumb.png"); }
   }
   @media screen and (max-width: $large){
-    padding: 40px 6% 60px;
+    margin: 40px 6% 60px;
     .thumb{
       width: 31%;
       height: 265px;
@@ -422,7 +424,7 @@ PORTFOLIO PAGE
     }
   }
   @media screen and (max-width: $small){
-    padding: 20px 3% 30px;
+    margin: 20px 3% 30px;
     text-align: center;
     h5{
       display: none;
