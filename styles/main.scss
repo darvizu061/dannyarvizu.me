@@ -382,10 +382,10 @@ PORTFOLIO PAGE
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   .thumb{
-    height: 270px;
+    height: 255px;
     margin-top: 20px;
     padding: 8px 8px 0;
-    width: 30%;
+    width: 310px;
     font-family: 'Nunito', sans-serif;
 
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
@@ -395,7 +395,7 @@ PORTFOLIO PAGE
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      height: 200px;
+      height: 180px;
     }
     #cid_image{ background-image: url("../images/cid_thumb.png"); }
     #otm_image{ background-image: url("../images/placeholder.png"); }
@@ -404,6 +404,39 @@ PORTFOLIO PAGE
     #ahc_image{ background-image: url("../images/ahc_thumb.png"); }
     #ntt_image{ background-image: url("../images/ntt_thumb.png"); }
     #nta_image{ background-image: url("../images/nta_thumb.png"); }
+  }
+  @media screen and (max-width: $large){
+    padding: 40px 6% 60px;
+    .thumb{
+      width: 31%;
+      height: 265px;
+    }
+  }
+  @media screen and (max-width: $medium){
+    .thumb{
+      width: 45%;
+      height: 30vw;
+      .image_helper{
+        height: 21vw;
+      }
+    }
+  }
+  @media screen and (max-width: $small){
+    padding: 20px 3% 30px;
+    text-align: center;
+    h5{
+      display: none;
+    }
+    h4{
+      font-size: 15px;
+      margin-top: 2vw;
+    }
+  }
+  @media screen and (max-width: $xsmall){
+    h4{ font-size: 13px; }
+  }
+  @media screen and (max-width: $xxsmall){
+    h4{ font-size: 11px; }
   }
 }
 /*******************

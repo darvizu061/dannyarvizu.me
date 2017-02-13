@@ -275,10 +275,10 @@ PORTFOLIO PAGE
   -webkit-flex-flow: row wrap;
   justify-content: space-around; }
   #portfolioContainer .thumb {
-    height: 270px;
+    height: 255px;
     margin-top: 20px;
     padding: 8px 8px 0;
-    width: 30%;
+    width: 310px;
     font-family: 'Nunito', sans-serif;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
@@ -287,7 +287,7 @@ PORTFOLIO PAGE
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      height: 200px; }
+      height: 180px; }
     #portfolioContainer .thumb #cid_image {
       background-image: url("../images/cid_thumb.png"); }
     #portfolioContainer .thumb #otm_image {
@@ -302,6 +302,33 @@ PORTFOLIO PAGE
       background-image: url("../images/ntt_thumb.png"); }
     #portfolioContainer .thumb #nta_image {
       background-image: url("../images/nta_thumb.png"); }
+  @media screen and (max-width: 1200px) {
+    #portfolioContainer {
+      padding: 40px 6% 60px; }
+      #portfolioContainer .thumb {
+        width: 31%;
+        height: 265px; } }
+  @media screen and (max-width: 992px) {
+    #portfolioContainer .thumb {
+      width: 45%;
+      height: 30vw; }
+      #portfolioContainer .thumb .image_helper {
+        height: 21vw; } }
+  @media screen and (max-width: 768px) {
+    #portfolioContainer {
+      padding: 20px 3% 30px;
+      text-align: center; }
+      #portfolioContainer h5 {
+        display: none; }
+      #portfolioContainer h4 {
+        font-size: 15px;
+        margin-top: 2vw; } }
+  @media screen and (max-width: 470px) {
+    #portfolioContainer h4 {
+      font-size: 13px; } }
+  @media screen and (max-width: 370px) {
+    #portfolioContainer h4 {
+      font-size: 11px; } }
 
 /*******************
 HOVER.SCSS UPDATES
