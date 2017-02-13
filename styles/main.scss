@@ -13,6 +13,12 @@ $xxsmall: 370px;
 body, html{
   overflow-x: hidden;
 }
+a{
+  color: black;
+  &:hover{
+    text-decoration: none;
+  }
+}
 /*******************
 NAV BAR
 *******************/

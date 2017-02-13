@@ -1,6 +1,11 @@
 body, html {
   overflow-x: hidden; }
 
+a {
+  color: black; }
+  a:hover {
+    text-decoration: none; }
+
 /*******************
 NAV BAR
 *******************/
