@@ -339,6 +339,29 @@ PORTFOLIO PAGE
       font-size: 11px; } }
 
 /*******************
+PROJECT PAGE
+*******************/
+#projectContainer {
+  padding: 65px 13% 20px;
+  font-family: 'Nunito', sans-serif; }
+  #projectContainer .introSlide {
+    height: 540px; }
+    #projectContainer .introSlide h1 {
+      font-size: 50px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 20px; }
+    #projectContainer .introSlide .sub-title {
+      height: 35px; }
+      #projectContainer .introSlide .sub-title .float-left {
+        float: left; }
+      #projectContainer .introSlide .sub-title .float-right {
+        float: right; }
+    #projectContainer .introSlide p {
+      padding-top: 40px;
+      font-size: 20px;
+      line-height: 36px; }
+
+/*******************
 HOVER.SCSS UPDATES
 *******************/
 .hvr-sweep-to-right:before {
