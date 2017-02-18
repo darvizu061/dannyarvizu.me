@@ -345,8 +345,7 @@ PROJECT PAGE
   background-color: #e8e3e1; }
 
 .container-theme {
-  padding: 50px 13% 0px;
-  height: 565px; }
+  padding: 50px 13% 50px; }
 
 .container-img {
   padding: 100px 13% 0px; }
@@ -358,7 +357,7 @@ PROJECT PAGE
 .container-wording-middle {
   font-family: 'Nunito', sans-serif;
   width: 100%;
-  padding: 100px 13% 0px;
+  padding: 100px 13% 120px;
   text-align: justify; }
   .container-wording-middle .content-title {
     font-size: 25px; }
@@ -366,7 +365,6 @@ PROJECT PAGE
     font-size: 20px;
     line-height: 40px;
     padding-top: 30px;
-    padding-bottom: 80px;
     margin-bottom: 0; }
   .container-wording-middle .content-title, .container-wording-middle .content-p {
     padding-left: 7%;
