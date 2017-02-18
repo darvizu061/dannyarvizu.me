@@ -6,7 +6,7 @@ $fourth: #3A6582; //ming
 //MEDIA QUERIES
 $large: 1200px;
 $medium: 992px;
-$small: 768px;
+$small: 767px;
 $xsmall: 470px;
 $xxsmall: 370px;
 //General
@@ -450,12 +450,65 @@ PORTFOLIO PAGE
 /*******************
 PROJECT PAGE
 *******************/
-#projectContainer{
-  padding: 65px 13% 20px;
+.container-grey{
+  background-color: #e8e3e1;
+}
+.container-theme{
+  padding: 50px 13% 0px;
+  height: 565px;
+}
+.container-img{
+  padding: 100px 13% 0px;
+  .snapshot-lg{
+    width: 100%;
+    border: #DDD solid 1px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+.container-wording-middle{
   font-family: 'Nunito', sans-serif;
+  width: 100%;
+  padding: 100px 13% 0px;
+  text-align: justify;
+  .content-title{
+    font-size: 25px;
+  }
+  .content-p{
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+  }
+  .content-title, .content-p{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  @media screen and (max-width: $medium){
+    .content-title{
+      font-size: 21px;
+      padding-top: 0;
+    }
+    .content-p{
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: $small){
+    height: auto;
+  }
+  @media screen and (max-width: $xsmall){
+    .content-title, .content-p{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+.container-theme-intro{
+  padding: 50px 13% 0px;
+  font-family: 'Nunito', sans-serif;
+  text-align: justify;
   .introSlide{
-    height: 540px;
-
+    height: 450px;
     h1{
       font-size: 50px;
       border-bottom: 2px solid #ddd;
@@ -477,6 +530,34 @@ PROJECT PAGE
     }
 
 
+  }
+  @media screen and (max-width: $large){
+    padding: 50px 9% 0;
+  }
+  @media screen and (max-width: $medium){
+    padding: 50px 5% 0;
+    .introSlide{
+      h1{
+        font-size: 35px;
+      }
+      .sub-title h4{
+        font-size: 13px;
+      }
+      p{
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+  @media screen and (max-width: $small){
+    .introSlide{
+      height: auto;
+      padding-bottom: 50px;
+      p{
+        margin-bottom: 20px;
+      }
+    }
   }
 }
 /*******************

@@ -81,7 +81,7 @@ nav {
   @media screen and (max-width: 992px) {
     nav a .third-party-logo {
       margin-left: 10px; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     nav {
       padding: 0 40px; }
       nav .menu {
@@ -144,7 +144,7 @@ HOMEPAGE
       #resumeSlide #phrase a:hover {
         text-decoration: none;
         color: #0b2545; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     #resumeSlide #phrase {
       font-size: 15px;
       margin-top: 5px; } }
@@ -246,7 +246,7 @@ HOMEPAGE
             font-size: 12px; }
         #recentWorkSlide #cardContainer .recentCard a {
           font-size: 15px; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     #recentWorkSlide {
       height: auto; }
       #recentWorkSlide #backgroundTitle {
@@ -322,7 +322,7 @@ PORTFOLIO PAGE
       height: 30vw; }
       #portfolioContainer .thumb .image_helper {
         height: 21vw; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     #portfolioContainer {
       margin: 20px 3% 30px;
       text-align: center; }
@@ -341,25 +341,90 @@ PORTFOLIO PAGE
 /*******************
 PROJECT PAGE
 *******************/
-#projectContainer {
-  padding: 65px 13% 20px;
-  font-family: 'Nunito', sans-serif; }
-  #projectContainer .introSlide {
-    height: 540px; }
-    #projectContainer .introSlide h1 {
+.container-grey {
+  background-color: #e8e3e1; }
+
+.container-theme {
+  padding: 50px 13% 0px;
+  height: 565px; }
+
+.container-img {
+  padding: 100px 13% 0px; }
+  .container-img .snapshot-lg {
+    width: 100%;
+    border: #DDD solid 1px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5); }
+
+.container-wording-middle {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  padding: 100px 13% 0px;
+  text-align: justify; }
+  .container-wording-middle .content-title {
+    font-size: 25px; }
+  .container-wording-middle .content-p {
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-bottom: 0; }
+  .container-wording-middle .content-title, .container-wording-middle .content-p {
+    padding-left: 7%;
+    padding-right: 7%; }
+  @media screen and (max-width: 992px) {
+    .container-wording-middle .content-title {
+      font-size: 21px;
+      padding-top: 0; }
+    .container-wording-middle .content-p {
+      font-size: 17px; } }
+  @media screen and (max-width: 767px) {
+    .container-wording-middle {
+      height: auto; } }
+  @media screen and (max-width: 470px) {
+    .container-wording-middle .content-title, .container-wording-middle .content-p {
+      padding-left: 0;
+      padding-right: 0; } }
+
+.container-theme-intro {
+  padding: 50px 13% 0px;
+  font-family: 'Nunito', sans-serif;
+  text-align: justify; }
+  .container-theme-intro .introSlide {
+    height: 450px; }
+    .container-theme-intro .introSlide h1 {
       font-size: 50px;
       border-bottom: 2px solid #ddd;
       padding-bottom: 20px; }
-    #projectContainer .introSlide .sub-title {
+    .container-theme-intro .introSlide .sub-title {
       height: 35px; }
-      #projectContainer .introSlide .sub-title .float-left {
+      .container-theme-intro .introSlide .sub-title .float-left {
         float: left; }
-      #projectContainer .introSlide .sub-title .float-right {
+      .container-theme-intro .introSlide .sub-title .float-right {
         float: right; }
-    #projectContainer .introSlide p {
+    .container-theme-intro .introSlide p {
       padding-top: 40px;
       font-size: 20px;
       line-height: 36px; }
+  @media screen and (max-width: 1200px) {
+    .container-theme-intro {
+      padding: 50px 9% 0; } }
+  @media screen and (max-width: 992px) {
+    .container-theme-intro {
+      padding: 50px 5% 0; }
+      .container-theme-intro .introSlide h1 {
+        font-size: 35px; }
+      .container-theme-intro .introSlide .sub-title h4 {
+        font-size: 13px; }
+      .container-theme-intro .introSlide p {
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 30px; } }
+  @media screen and (max-width: 767px) {
+    .container-theme-intro .introSlide {
+      height: auto;
+      padding-bottom: 50px; }
+      .container-theme-intro .introSlide p {
+        margin-bottom: 20px; } }
 
 /*******************
 HOVER.SCSS UPDATES
@@ -389,7 +454,7 @@ footer {
       padding: 0 25px; }
       footer h4 {
         font-size: 12px; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     footer {
       height: auto; }
       footer h4 {
