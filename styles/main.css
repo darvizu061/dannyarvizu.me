@@ -428,6 +428,21 @@ PROJECT PAGE
         margin-bottom: 20px; } }
 
 /*******************
+COMING SOON PAGE
+*******************/
+.comingsoonContainer h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 50px;
+  margin: 0 auto;
+  width: 500px;
+  color: red;
+  line-height: 79vh; }
+@media screen and (max-width: 767px) {
+  .comingsoonContainer h1 {
+    font-size: 40px;
+    width: 335px; } }
+
+/*******************
 HOVER.SCSS UPDATES
 *******************/
 .hvr-sweep-to-right:before {
