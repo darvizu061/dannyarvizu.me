@@ -403,6 +403,9 @@ PROJECT PAGE
       padding-top: 40px;
       font-size: 20px;
       line-height: 36px; }
+    .container-theme-intro .introSlide .mobile-mockup {
+      height: 400px;
+      margin: 0 auto; }
   @media screen and (max-width: 1200px) {
     .container-theme-intro {
       padding: 50px 9% 0; } }
