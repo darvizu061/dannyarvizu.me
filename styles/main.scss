@@ -209,8 +209,7 @@ HOMEPAGE
   }
 }
 #recentWorkSlide{
-  min-height: 1000px;
-  height: 100vh;
+  height: 500px;
   position: relative;
   #backgroundTitle{
     color: $secondary;
@@ -304,7 +303,6 @@ HOMEPAGE
     }
   }
   @media screen and (max-width: $medium){
-    min-height: 800px;
     #backgroundTitle{
       width: 520px;
       font-size: 60px;
@@ -669,7 +667,7 @@ COMING SOON PAGE
 HOVER.SCSS UPDATES
 *******************/
 .hvr-sweep-to-right:before{
-  background: $fourth;
+  background: #7ce131;
 }
 /*******************
 FOOTER

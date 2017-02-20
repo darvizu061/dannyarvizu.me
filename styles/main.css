@@ -150,8 +150,7 @@ HOMEPAGE
       margin-top: 5px; } }
 
 #recentWorkSlide {
-  min-height: 1000px;
-  height: 100vh;
+  height: 500px;
   position: relative; }
   #recentWorkSlide #backgroundTitle {
     color: #0b2545;
@@ -223,29 +222,27 @@ HOMEPAGE
         height: 350px;
         overflow-y: scroll; } }
   @media screen and (max-width: 992px) {
-    #recentWorkSlide {
-      min-height: 800px; }
-      #recentWorkSlide #backgroundTitle {
-        width: 520px;
-        font-size: 60px;
-        margin: auto;
-        right: 0;
-        left: 0;
-        top: 30px; }
-      #recentWorkSlide #cardContainer .recentCard {
-        width: 200px; }
-        #recentWorkSlide #cardContainer .recentCard .imgHelper {
-          height: 130px; }
-        #recentWorkSlide #cardContainer .recentCard .title {
-          font-size: 18px; }
-        #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
-          height: 250px; }
-          #recentWorkSlide #cardContainer .recentCard .info-sub-slide .des-title {
-            font-size: 14px; }
-          #recentWorkSlide #cardContainer .recentCard .info-sub-slide p, #recentWorkSlide #cardContainer .recentCard .info-sub-slide ul {
-            font-size: 12px; }
-        #recentWorkSlide #cardContainer .recentCard a {
-          font-size: 15px; } }
+    #recentWorkSlide #backgroundTitle {
+      width: 520px;
+      font-size: 60px;
+      margin: auto;
+      right: 0;
+      left: 0;
+      top: 30px; }
+    #recentWorkSlide #cardContainer .recentCard {
+      width: 200px; }
+      #recentWorkSlide #cardContainer .recentCard .imgHelper {
+        height: 130px; }
+      #recentWorkSlide #cardContainer .recentCard .title {
+        font-size: 18px; }
+      #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
+        height: 250px; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide .des-title {
+          font-size: 14px; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide p, #recentWorkSlide #cardContainer .recentCard .info-sub-slide ul {
+          font-size: 12px; }
+      #recentWorkSlide #cardContainer .recentCard a {
+        font-size: 15px; } }
   @media screen and (max-width: 767px) {
     #recentWorkSlide {
       height: auto; }
@@ -516,7 +513,7 @@ COMING SOON PAGE
 HOVER.SCSS UPDATES
 *******************/
 .hvr-sweep-to-right:before {
-  background: #3a6582; }
+  background: #7ce131; }
 
 /*******************
 FOOTER
