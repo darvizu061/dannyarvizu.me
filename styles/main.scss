@@ -563,6 +563,90 @@ PROJECT PAGE
   }
 }
 /*******************
+CONTACT FORM PAGE
+*******************/
+.contactFormContainer{
+  position: relative;
+  height: 80vh;
+  font-family: 'Nunito', sans-serif;
+  .contactForm{
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $secondary;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    #imgContainer, #formContainer{
+      height: 500px;
+    }
+    #imgContainer{
+      padding: 0;
+      #infoCard{
+        background-color: $primary;
+        background-image: url("../images/contact.png");
+        background-position: bottom;
+        height: 400px;
+        position: relative;
+        left: -80px;
+        margin-top: 50px;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        h2{
+          padding: 10px 0;
+          font-size: 30px;
+          color: white;
+        }
+
+      }
+    }
+    #formContainer{
+      color: white;
+      form{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        label{
+          font-size: 19px;
+        }
+        input{
+          width: 80%;
+          font-size: 19px;
+          margin-bottom: 5px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1px solid white;
+          background-color: $secondary;
+          &:focus{
+            outline: none;
+          }
+          &:last-child{
+            width: 100px;
+            border: none;
+            background-color: #70bcee;
+            margin-top: 30px;
+          }
+        }
+        textarea{
+          background-color: $secondary;
+          width: 80%;
+          height: 80px;
+          resize: none;
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+/*******************
 COMING SOON PAGE
 *******************/
 .comingsoonContainer{
@@ -592,7 +676,7 @@ FOOTER
 *******************/
 footer{
   font-family: 'Nunito', sans-serif;
-  background-color: $secondary;
+  background-color: #6d6c6c;
   color: white;
   height: 100px;
   padding: 0 50px;

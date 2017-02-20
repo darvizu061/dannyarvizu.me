@@ -428,6 +428,76 @@ PROJECT PAGE
         margin-bottom: 20px; } }
 
 /*******************
+CONTACT FORM PAGE
+*******************/
+.contactFormContainer {
+  position: relative;
+  height: 80vh;
+  font-family: 'Nunito', sans-serif; }
+  .contactFormContainer .contactForm {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0b2545;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75); }
+    .contactFormContainer .contactForm #imgContainer, .contactFormContainer .contactForm #formContainer {
+      height: 500px; }
+    .contactFormContainer .contactForm #imgContainer {
+      padding: 0; }
+      .contactFormContainer .contactForm #imgContainer #infoCard {
+        background-color: #b7d5d4;
+        background-image: url("../images/contact.png");
+        background-position: bottom;
+        height: 400px;
+        position: relative;
+        left: -80px;
+        margin-top: 50px;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75); }
+        .contactFormContainer .contactForm #imgContainer #infoCard h2 {
+          padding: 10px 0;
+          font-size: 30px;
+          color: white; }
+    .contactFormContainer .contactForm #formContainer {
+      color: white; }
+      .contactFormContainer .contactForm #formContainer form {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        .contactFormContainer .contactForm #formContainer form label {
+          font-size: 19px; }
+        .contactFormContainer .contactForm #formContainer form input {
+          width: 80%;
+          font-size: 19px;
+          margin-bottom: 5px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1px solid white;
+          background-color: #0b2545; }
+          .contactFormContainer .contactForm #formContainer form input:focus {
+            outline: none; }
+          .contactFormContainer .contactForm #formContainer form input:last-child {
+            width: 100px;
+            border: none;
+            background-color: #70bcee;
+            margin-top: 30px; }
+        .contactFormContainer .contactForm #formContainer form textarea {
+          background-color: #0b2545;
+          width: 80%;
+          height: 80px;
+          resize: none; }
+          .contactFormContainer .contactForm #formContainer form textarea:focus {
+            outline: none; }
+
+/*******************
 COMING SOON PAGE
 *******************/
 .comingsoonContainer h1 {
@@ -453,7 +523,7 @@ FOOTER
 *******************/
 footer {
   font-family: 'Nunito', sans-serif;
-  background-color: #0b2545;
+  background-color: #6d6c6c;
   color: white;
   height: 100px;
   padding: 0 50px; }
