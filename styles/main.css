@@ -438,9 +438,9 @@ CONTACT FORM PAGE
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #0b2545;
-    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75); }
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4); }
     .contactFormContainer .contactForm #imgContainer, .contactFormContainer .contactForm #formContainer {
       height: 500px; }
     .contactFormContainer .contactForm #imgContainer {
@@ -453,13 +453,9 @@ CONTACT FORM PAGE
         position: relative;
         left: -80px;
         margin-top: 50px;
-        -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75); }
-        .contactFormContainer .contactForm #imgContainer #infoCard h2 {
-          padding: 10px 0;
-          font-size: 30px;
-          color: white; }
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4); }
     .contactFormContainer .contactForm #formContainer {
       color: white; }
       .contactFormContainer .contactForm #formContainer form {
