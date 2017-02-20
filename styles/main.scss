@@ -565,6 +565,7 @@ CONTACT FORM PAGE
 *******************/
 .contactFormContainer{
   position: relative;
+  min-height: 540px;
   height: 80vh;
   font-family: 'Nunito', sans-serif;
   .contactForm{
@@ -586,6 +587,8 @@ CONTACT FORM PAGE
         background-color: $primary;
         background-image: url("../images/contact.png");
         background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
         height: 400px;
         position: relative;
         left: -80px;
@@ -593,7 +596,6 @@ CONTACT FORM PAGE
         -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
         -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
         box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
-
       }
     }
     #formContainer{
@@ -631,11 +633,74 @@ CONTACT FORM PAGE
           width: 80%;
           height: 80px;
           resize: none;
+          border: 1px solid white;
           &:focus{
             outline: none;
           }
         }
       }
+    }
+  }
+  @media screen and (max-width: $large){
+
+  }
+  @media screen and (max-width: $medium){
+    .contactForm{
+      width: 500px;
+      #imgContainer, #formContainer{
+        height: 375px;
+      }
+      #imgContainer > #infoCard{
+        height: 300px;
+        width: 250px;
+        margin-top: 38px;
+      }
+      #formContainer > form{
+        label, input{
+          font-size: 12px;
+        }
+      }
+    }
+
+  }
+  @media screen and (max-width: $small){
+    text-align: center;
+    height: 800px;
+    .contactForm{
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      background-color: white;
+      #imgContainer > #infoCard{
+        position: static;
+        margin: 0 auto;
+        width: 400px;
+        height: 350px;
+      }
+      #formContainer{
+        background-color: $secondary;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+        width: 400px;
+        margin: 0 auto;
+      }
+    }
+
+  }
+  @media screen and (max-width: $xsmall){
+    height: auto;
+    .contactForm{
+      position: static;
+      transform: none;
+      #imgContainer, #formContainer, #imgContainer > #infoCard{
+        width: 100vw;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+        box-shadow: none;
+      }
+      #imgContainer{ height: 350px; }
+      #formContainer{ margin: 0; }
     }
   }
 }

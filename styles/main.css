@@ -429,6 +429,7 @@ CONTACT FORM PAGE
 *******************/
 .contactFormContainer {
   position: relative;
+  min-height: 540px;
   height: 80vh;
   font-family: 'Nunito', sans-serif; }
   .contactFormContainer .contactForm {
@@ -449,6 +450,8 @@ CONTACT FORM PAGE
         background-color: #b7d5d4;
         background-image: url("../images/contact.png");
         background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
         height: 400px;
         position: relative;
         left: -80px;
@@ -486,9 +489,57 @@ CONTACT FORM PAGE
           background-color: #0b2545;
           width: 80%;
           height: 80px;
-          resize: none; }
+          resize: none;
+          border: 1px solid white; }
           .contactFormContainer .contactForm #formContainer form textarea:focus {
             outline: none; }
+  @media screen and (max-width: 992px) {
+    .contactFormContainer .contactForm {
+      width: 500px; }
+      .contactFormContainer .contactForm #imgContainer, .contactFormContainer .contactForm #formContainer {
+        height: 375px; }
+      .contactFormContainer .contactForm #imgContainer > #infoCard {
+        height: 300px;
+        width: 250px;
+        margin-top: 38px; }
+      .contactFormContainer .contactForm #formContainer > form label, .contactFormContainer .contactForm #formContainer > form input {
+        font-size: 12px; } }
+  @media screen and (max-width: 767px) {
+    .contactFormContainer {
+      text-align: center;
+      height: 800px; }
+      .contactFormContainer .contactForm {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: white; }
+        .contactFormContainer .contactForm #imgContainer > #infoCard {
+          position: static;
+          margin: 0 auto;
+          width: 400px;
+          height: 350px; }
+        .contactFormContainer .contactForm #formContainer {
+          background-color: #0b2545;
+          -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+          -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+          width: 400px;
+          margin: 0 auto; } }
+  @media screen and (max-width: 470px) {
+    .contactFormContainer {
+      height: auto; }
+      .contactFormContainer .contactForm {
+        position: static;
+        transform: none; }
+        .contactFormContainer .contactForm #imgContainer, .contactFormContainer .contactForm #formContainer, .contactFormContainer .contactForm #imgContainer > #infoCard {
+          width: 100vw;
+          -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+          -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: none; }
+        .contactFormContainer .contactForm #imgContainer {
+          height: 350px; }
+        .contactFormContainer .contactForm #formContainer {
+          margin: 0; } }
 
 /*******************
 COMING SOON PAGE
