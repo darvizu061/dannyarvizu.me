@@ -451,12 +451,12 @@ PROJECT PAGE
 .container-grey{
   background-color: #e8e3e1;
 }
-.container-theme{
-  padding: 50px 13% 50px;
-  // height: 565px;
+.content-container{
+  padding-top: 100px;
+  background-color: #e8e3e1;
 }
 .container-img{
-  padding: 100px 13% 0px;
+  padding: 0px 13% 0px;
   .snapshot-lg{
     width: 100%;
     border: #DDD solid 1px;
@@ -466,16 +466,17 @@ PROJECT PAGE
 .container-wording-middle{
   font-family: 'Nunito', sans-serif;
   width: 100%;
-  padding: 100px 13% 120px;
+  padding: 0 13%;
   text-align: justify;
   .content-title{
     font-size: 25px;
+    margin-top: 60px;
   }
   .content-p{
     font-size: 20px;
     line-height: 40px;
-    padding-top: 30px;
-    margin-bottom: 0;
+    margin:0;
+    padding: 30px 0 50px;
   }
   .content-title, .content-p{
     padding-left: 7%;
