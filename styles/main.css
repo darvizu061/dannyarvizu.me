@@ -171,7 +171,10 @@ HOMEPAGE
       display: inline-block;
       vertical-align: top;
       width: 370px;
-      margin: 0 10px; }
+      margin: 0 10px;
+      -webkit-transition: .5s;
+      /* For Safari 3.1 to 6.0 */
+      transition: .5s; }
       #recentWorkSlide #cardContainer .recentCard .imgHelper {
         height: 216px; }
       #recentWorkSlide #cardContainer .recentCard #optImg {
@@ -186,23 +189,6 @@ HOMEPAGE
         background: url("../images/cid.jpg");
         background-size: cover;
         background-position: center center; }
-      #recentWorkSlide #cardContainer .recentCard .title {
-        margin: 0;
-        line-height: 56px;
-        border-bottom: 1px solid grey; }
-      #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
-        height: 385px; }
-        #recentWorkSlide #cardContainer .recentCard .info-sub-slide .des-title, #recentWorkSlide #cardContainer .recentCard .info-sub-slide .det-title {
-          text-align: left;
-          padding: 0 15px;
-          margin: 10px 0 5px 0; }
-        #recentWorkSlide #cardContainer .recentCard .info-sub-slide p {
-          text-align: left;
-          padding: 0 15px;
-          font-size: 15px; }
-        #recentWorkSlide #cardContainer .recentCard .info-sub-slide ul {
-          text-align: left;
-          padding-bottom: 10px; }
       #recentWorkSlide #cardContainer .recentCard a {
         display: block;
         color: #565757;
