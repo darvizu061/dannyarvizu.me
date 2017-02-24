@@ -436,7 +436,7 @@ PROJECT PAGE
   background-color: #e8e3e1;
 }
 .container-img{
-  padding: 0px 13% 0px;
+  padding: 0px 13% 50px;
   .snapshot-lg{
     width: 100%;
     border: #DDD solid 1px;
@@ -484,7 +484,6 @@ PROJECT PAGE
 .container-theme-intro{
   padding: 50px 13% 0px;
   font-family: 'Nunito', sans-serif;
-  text-align: justify;
   .introSlide{
     height: 450px;
     h1{
@@ -505,6 +504,7 @@ PROJECT PAGE
       padding-top: 40px;
       font-size: 20px;
       line-height: 36px;
+      text-align: justify;
     }
     .mobile-mockup{
       height: 400px;
