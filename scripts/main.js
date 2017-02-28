@@ -16,4 +16,7 @@ $( document ).ready(function(){
   portfolio.mouseleave(function(){
     thumbs.css("opacity","1");
   });
+  $('.fadeInRight').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    $('.fadeInRight, .fadeInDown').removeClass('fadeInRight fadeInDown');
+  });
 });
