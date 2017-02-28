@@ -602,7 +602,7 @@ CONTACT FORM PAGE
           &:focus{
             outline: none;
           }
-          &:last-child{
+          &[type="submit"]{
             width: 100px;
             border: none;
             background-color: #70bcee;

@@ -468,7 +468,7 @@ CONTACT FORM PAGE
           background-color: #0b2545; }
           .contactFormContainer .contactForm #formContainer form input:focus {
             outline: none; }
-          .contactFormContainer .contactForm #formContainer form input:last-child {
+          .contactFormContainer .contactForm #formContainer form input[type="submit"] {
             width: 100px;
             border: none;
             background-color: #70bcee;
