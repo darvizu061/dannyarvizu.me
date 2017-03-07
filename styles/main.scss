@@ -133,7 +133,12 @@ nav{
     }
   }
   @media screen and (max-width: $xsmall){
-
+    .overlay a h3{
+      font-size: 40px;
+      & overlay-content{
+        margin-top: 0;
+      }
+    }
   }
 }
 /*******************
