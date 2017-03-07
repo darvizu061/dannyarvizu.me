@@ -67,7 +67,11 @@ nav{
   .menubtn{
     display: none;
     float: right;
-    padding-top: 13px;
+    padding-top: 24px;
+    img{
+      height: 30px;
+      width: 30px;
+    }
   }
   .overlay {
     height: 100%;
