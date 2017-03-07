@@ -148,7 +148,8 @@ HOMEPAGE
   min-height: 460px;
   max-height: 500px;
   height: 60vh;
-  background: linear-gradient(to left, rgba(0,0,0,0.4) 100%,rgba(0,0,0,0.4) 100%), url("../images/jumbo.jpg") no-repeat;
+  background: linear-gradient(to left, rgba(0,0,0,0.6) 100%,rgba(0,0,0,0.6) 100%), url("../images/jumbo.jpg") no-repeat;
+  background-position: center 0%;
   background-size: cover;
   color: white;
   #mainTitle{
@@ -176,6 +177,7 @@ HOMEPAGE
     text-align: center;
   }
   @media screen and (max-width: $xsmall){
+    background-position: 15% 0%;
     #mainTitle{
       font-size: 35px;
     }
@@ -214,7 +216,7 @@ HOMEPAGE
   }
 }
 #recentWorkSlide{
-  height: 500px;
+  height: 590px;
   position: relative;
   #backgroundTitle{
     color: $secondary;
@@ -276,7 +278,24 @@ HOMEPAGE
     }
   }
 
+  .moreBtn{
+    font-family: 'Nunito', sans-serif;
+    margin: 70px auto 0;
+    padding: 8px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    width: 190px;
+    background-color: #b2a455;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2);
+
+  }
+
   @media screen and (max-width: $large){
+    height: 540px;
     #cardContainer{
       .recentCard{
         width: 300px;
@@ -291,6 +310,7 @@ HOMEPAGE
     }
   }
   @media screen and (max-width: $medium){
+    height: 500px;
     #backgroundTitle{
       width: 520px;
       font-size: 60px;
@@ -344,6 +364,9 @@ HOMEPAGE
           height: auto;
         }
       }
+    }
+    .moreBtn{
+      margin: 0 auto 100px;
     }
   }
   @media screen and (max-width: $xsmall){

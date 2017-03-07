@@ -101,7 +101,8 @@ HOMEPAGE
   min-height: 460px;
   max-height: 500px;
   height: 60vh;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%), url("../images/jumbo.jpg") no-repeat;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), url("../images/jumbo.jpg") no-repeat;
+  background-position: center 0%;
   background-size: cover;
   color: white; }
   #jumbotronSlide #mainTitle {
@@ -126,12 +127,14 @@ HOMEPAGE
     #jumbotronSlide {
       text-align: center; } }
   @media screen and (max-width: 470px) {
-    #jumbotronSlide #mainTitle {
-      font-size: 35px; }
-    #jumbotronSlide p {
-      font-size: 18px; }
-    #jumbotronSlide a {
-      font-size: 20px; } }
+    #jumbotronSlide {
+      background-position: 15% 0%; }
+      #jumbotronSlide #mainTitle {
+        font-size: 35px; }
+      #jumbotronSlide p {
+        font-size: 18px; }
+      #jumbotronSlide a {
+        font-size: 20px; } }
 
 #resumeSlide {
   height: 80px;
@@ -155,7 +158,7 @@ HOMEPAGE
       margin-top: 5px; } }
 
 #recentWorkSlide {
-  height: 500px;
+  height: 590px;
   position: relative; }
   #recentWorkSlide #backgroundTitle {
     color: #0b2545;
@@ -206,36 +209,53 @@ HOMEPAGE
         #recentWorkSlide #cardContainer .recentCard a:hover {
           text-decoration: none;
           color: white; }
+  #recentWorkSlide .moreBtn {
+    font-family: 'Nunito', sans-serif;
+    margin: 70px auto 0;
+    padding: 8px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    width: 190px;
+    background-color: #b2a455;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2); }
   @media screen and (max-width: 1200px) {
-    #recentWorkSlide #cardContainer .recentCard {
-      width: 300px; }
-      #recentWorkSlide #cardContainer .recentCard .imgHelper {
-        height: 170px; }
-      #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
-        height: 350px;
-        overflow-y: scroll; } }
+    #recentWorkSlide {
+      height: 540px; }
+      #recentWorkSlide #cardContainer .recentCard {
+        width: 300px; }
+        #recentWorkSlide #cardContainer .recentCard .imgHelper {
+          height: 170px; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
+          height: 350px;
+          overflow-y: scroll; } }
   @media screen and (max-width: 992px) {
-    #recentWorkSlide #backgroundTitle {
-      width: 520px;
-      font-size: 60px;
-      margin: auto;
-      right: 0;
-      left: 0;
-      top: 30px; }
-    #recentWorkSlide #cardContainer .recentCard {
-      width: 200px; }
-      #recentWorkSlide #cardContainer .recentCard .imgHelper {
-        height: 130px; }
-      #recentWorkSlide #cardContainer .recentCard .title {
-        font-size: 18px; }
-      #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
-        height: 250px; }
-        #recentWorkSlide #cardContainer .recentCard .info-sub-slide .des-title {
-          font-size: 14px; }
-        #recentWorkSlide #cardContainer .recentCard .info-sub-slide p, #recentWorkSlide #cardContainer .recentCard .info-sub-slide ul {
-          font-size: 12px; }
-      #recentWorkSlide #cardContainer .recentCard a {
-        font-size: 15px; } }
+    #recentWorkSlide {
+      height: 500px; }
+      #recentWorkSlide #backgroundTitle {
+        width: 520px;
+        font-size: 60px;
+        margin: auto;
+        right: 0;
+        left: 0;
+        top: 30px; }
+      #recentWorkSlide #cardContainer .recentCard {
+        width: 200px; }
+        #recentWorkSlide #cardContainer .recentCard .imgHelper {
+          height: 130px; }
+        #recentWorkSlide #cardContainer .recentCard .title {
+          font-size: 18px; }
+        #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
+          height: 250px; }
+          #recentWorkSlide #cardContainer .recentCard .info-sub-slide .des-title {
+            font-size: 14px; }
+          #recentWorkSlide #cardContainer .recentCard .info-sub-slide p, #recentWorkSlide #cardContainer .recentCard .info-sub-slide ul {
+            font-size: 12px; }
+        #recentWorkSlide #cardContainer .recentCard a {
+          font-size: 15px; } }
   @media screen and (max-width: 767px) {
     #recentWorkSlide {
       height: auto; }
@@ -251,7 +271,9 @@ HOMEPAGE
           #recentWorkSlide #cardContainer .recentCard .imgHelper {
             height: 300px; }
           #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
-            height: auto; } }
+            height: auto; }
+      #recentWorkSlide .moreBtn {
+        margin: 0 auto 100px; } }
   @media screen and (max-width: 470px) {
     #recentWorkSlide #backgroundTitle {
       font-size: 30px;
