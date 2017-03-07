@@ -237,6 +237,9 @@ HOMEPAGE
       .imgHelper{
         height: 216px;
       }
+      .title{
+        margin: 15px 0 15px 0;
+      }
       #optImg{
         background-image: url("../images/placeholder.png");
         background-size: cover;
@@ -325,7 +328,7 @@ HOMEPAGE
       padding-top: 100px;
       .recentCard{
         max-width: 520px;
-        width: 100vw;
+        width: 95vw;
         margin: 0 0 100px;
         .imgHelper{
           height: 300px;
@@ -339,10 +342,24 @@ HOMEPAGE
     }
   }
   @media screen and (max-width: $xsmall){
+    #backgroundTitle{
+      font-size: 30px;
+      width: 260px;
+    }
     #cardContainer{
       .recentCard{
         .imgHelper{
-          height: 270px;
+          height: 240px;
+
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $xxsmall){
+    #cardContainer{
+      .recentCard{
+        .imgHelper{
+          height: 180px;
 
         }
       }

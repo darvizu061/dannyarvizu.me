@@ -177,6 +177,8 @@ HOMEPAGE
       transition: .5s; }
       #recentWorkSlide #cardContainer .recentCard .imgHelper {
         height: 216px; }
+      #recentWorkSlide #cardContainer .recentCard .title {
+        margin: 15px 0 15px 0; }
       #recentWorkSlide #cardContainer .recentCard #optImg {
         background-image: url("../images/placeholder.png");
         background-size: cover;
@@ -239,15 +241,21 @@ HOMEPAGE
         padding-top: 100px; }
         #recentWorkSlide #cardContainer .recentCard {
           max-width: 520px;
-          width: 100vw;
+          width: 95vw;
           margin: 0 0 100px; }
           #recentWorkSlide #cardContainer .recentCard .imgHelper {
             height: 300px; }
           #recentWorkSlide #cardContainer .recentCard .info-sub-slide {
             height: auto; } }
   @media screen and (max-width: 470px) {
+    #recentWorkSlide #backgroundTitle {
+      font-size: 30px;
+      width: 260px; }
     #recentWorkSlide #cardContainer .recentCard .imgHelper {
-      height: 270px; } }
+      height: 240px; } }
+  @media screen and (max-width: 370px) {
+    #recentWorkSlide #cardContainer .recentCard .imgHelper {
+      height: 180px; } }
 
 /*******************
 PORTFOLIO PAGE
