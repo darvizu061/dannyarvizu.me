@@ -480,11 +480,11 @@ PROJECT PAGE
   background-color: #e8e3e1;
 }
 .content-container{
-  padding-top: 100px;
+  padding: 0 0 120px;
   background-color: #e8e3e1;
 }
 .container-img{
-  padding: 0px 13% 50px;
+  padding: 100px 13% 0;
   .snapshot-lg{
     width: 100%;
     border: #DDD solid 1px;
@@ -494,17 +494,18 @@ PROJECT PAGE
 .container-wording-middle{
   font-family: 'Nunito', sans-serif;
   width: 100%;
-  padding: 0 13%;
+  padding: 100px 13% 0;
   text-align: justify;
   .content-title{
     font-size: 25px;
-    margin-top: 60px;
+    margin: 0;
   }
   .content-p{
     font-size: 20px;
     line-height: 40px;
     margin:0;
-    padding: 30px 0 50px;
+    padding-top: 30px;
+    padding-bottom: 0;
   }
   .content-title, .content-p{
     padding-left: 7%;
